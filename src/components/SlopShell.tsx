@@ -5,6 +5,7 @@ import { themes } from '../config/themes';
 import { ChaosNav } from './ChaosNav';
 import { Marquee } from './Marquee';
 import { NoiseLayers } from './NoiseLayers';
+import { RetroGarbage } from './RetroGarbage';
 
 interface SlopShellProps {
   children: ReactNode;
@@ -41,11 +42,12 @@ export function SlopShell({ children }: SlopShellProps) {
       <NoiseLayers />
       <Marquee items={globalTicker} tone="warning" />
       <ChaosNav routes={routes} />
+      <RetroGarbage />
       <main id="main-content">{children}</main>
       <footer className="slop-footer">
-        <p>© 2088 SLOP∞ · 保留所有尚未生成的权利</p>
-        <p>NO COOKIES · NO TRACKING · NO SUBSTANCE</p>
-        <span>{theme.label}</span>
+        <p>© 2088 SLOP∞ · 保留所有尚未生成的权利 · 友情链接申请请发传真</p>
+        <p>NO COOKIES · NO TRACKING · NO SUBSTANCE · 站长 QQ：88888888</p>
+        <span>◆ {theme.label} ◆</span>
       </footer>
     </div>
   );

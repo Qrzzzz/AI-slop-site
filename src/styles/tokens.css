@@ -7,6 +7,8 @@
   --font-terminal: "Courier New", Consolas, "Microsoft YaHei", monospace;
   --font-wedding: Georgia, "Times New Roman", "STKaiti", KaiTi, serif;
   --font-childlike: "Comic Sans MS", "Comic Sans", "Microsoft YaHei", cursive;
+  --font-papyrus: Papyrus, "Segoe Print", FangSong, fantasy;
+  --font-times: "Times New Roman", SimSun, serif;
   --shadow-brutal: 8px 8px 0 #000;
   --shadow-plastic: 0 18px 42px rgba(54, 0, 110, 0.42), inset 0 2px 0 rgba(255, 255, 255, 0.75);
   --radius-questionable: 27px 3px 31px 7px;
