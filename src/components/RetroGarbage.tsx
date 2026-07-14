@@ -2,7 +2,9 @@ export function RetroGarbage() {
   return (
     <section className="retro-garbage" aria-hidden="true">
       <div className="retro-garbage__wordart">
-        <span>★ WELCOME 2 MY A.I. HOMEPAGE ★</span>
+        <span>
+          <i>★ WELCOME</i><i>2</i><i>MY</i><i>A.I.</i><i>HOMEPAGE ★</i>
+        </span>
       </div>
       <div className="retro-garbage__badges">
         <span className="retro-badge retro-badge--construction">🚧 UNDER CONSTRUCTION FOREVER 🚧</span>

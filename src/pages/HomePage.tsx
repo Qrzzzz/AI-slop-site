@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import chromeBuffet from '../assets/generated/chrome-buffet.webp';
 import iconLandfill from '../assets/generated/icon-landfill.webp';
-import { FakeCookieModal } from '../components/FakeCookieModal';
 import { Marquee } from '../components/Marquee';
 import { customerNames, homeCopy, manifestoLines } from '../content/copy';
 
@@ -66,7 +65,6 @@ export function HomePage() {
           </article>
         ))}
       </section>
-      <FakeCookieModal />
     </div>
   );
 }
